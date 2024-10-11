@@ -1,3 +1,11 @@
+# [1.12.0](https://github.com/yanhao98/semantic-release-action-example/compare/v1.11.0...v1.12.0) (2024-10-11)
+
+
+### Features
+
+* @semantic-release/github ([88d6bcc](https://github.com/yanhao98/semantic-release-action-example/commit/88d6bccac36075cc29185fa860093535a7a6fb19))
+* 添加 GitHub 令牌到 CI 配置以支持发布流程 ([177eee0](https://github.com/yanhao98/semantic-release-action-example/commit/177eee0ce697602cfdf9150a7596083fe22b72cd))
+
 # [1.11.0](https://github.com/yanhao98/semantic-release-action-example/compare/v1.10.0...v1.11.0) (2024-10-11)
 
 
