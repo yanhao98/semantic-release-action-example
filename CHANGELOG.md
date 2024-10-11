@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/yanhao98/semantic-release-action-example/compare/v1.13.0...v1.13.1) (2024-10-11)
+
+
+### Bug Fixes
+
+* 更新CI工作流权限配置以支持发布和评论功能 ([e6514b7](https://github.com/yanhao98/semantic-release-action-example/commit/e6514b76fd31e2d469a0f1d9f924f6edc38de669))
+
 # [1.13.0](https://github.com/yanhao98/semantic-release-action-example/compare/v1.12.0...v1.13.0) (2024-10-11)
 
 
