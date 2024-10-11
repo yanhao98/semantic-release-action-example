@@ -11,8 +11,6 @@ git push origin main:main
 # git merge main
 
 # git push origin release:release
-# git switch main
 
-# git switch release
-# git rebase main --reapply-cherry-picks -X theirs
-# git rebase release --reapply-cherry-picks
+# git switch main
+# git rebase release --reapply-cherry-picks -X theirs
