@@ -1,0 +1,1 @@
+- https://github.com/containerbase/internal-tools/blob/0dc342c660d17d88f554e39bced70d9d55d64ed2/.releaserc.json
