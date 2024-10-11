@@ -12,9 +12,11 @@ jobs:
       next_release_published: ${{ steps.semantic.outputs.next_release_published }}
       next_release_version: ${{ steps.semantic.outputs.next_release_version }}
     runs-on: ubuntu-latest
-    permissions:                # Job-level permissions configuration starts here
-      contents: write           # 'write' access to repository contents
+    permissions:           # Job-level permissions configuration starts here
       id-token: write
+      contents: write      # to be able to publish a GitHub release
+      issues: write        # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
     steps:
       - name: Checkout
         uses: actions/checkout@v4
