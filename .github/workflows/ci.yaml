@@ -1,0 +1,38 @@
+name: 持续集成
+on:
+  push:
+    branches:
+      - main
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  release:
+    outputs:
+      next_release_published: ${{ steps.semantic.outputs.next_release_published }}
+      next_release_version: ${{ steps.semantic.outputs.next_release_version }}
+    runs-on: ubuntu-latest
+    permissions:                # Job-level permissions configuration starts here
+      contents: write           # 'write' access to repository contents
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - uses: yanhao98/semantic-release-action@main
+        id: semantic
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  after-release:
+    runs-on: ubuntu-latest
+    needs: release
+    steps:
+      - name: Print
+        run: |
+          echo "next_release_published: ${{ needs.release.outputs.next_release_published }}"
+          echo "next_release_version: ${{ needs.release.outputs.next_release_version }}"
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: cat CHANGELOG.md

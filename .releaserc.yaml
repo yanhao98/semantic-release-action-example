@@ -1,0 +1,16 @@
+---
+plugins:
+  - "@semantic-release/commit-analyzer"
+  - "@semantic-release/release-notes-generator"
+  - "@semantic-release/changelog"
+  - - "@semantic-release/npm" # https://github.com/semantic-release/npm?tab=readme-ov-file#environment-variables
+    # [provenance](https://docs.npmjs.com/generating-provenance-statements#using-third-party-package-publishing-tools)
+    - npmPublish: true
+  - - "@semantic-release/git"
+    - message: |-
+        chore(release): ${nextRelease.version} [skip ci]
+
+        ${nextRelease.notes}
+  - - "@semantic-release/exec"
+    - prepareCmd: echo 'prepareCmd'
+      publishCmd: echo 'publishCmd'
