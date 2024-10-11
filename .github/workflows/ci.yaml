@@ -23,6 +23,7 @@ jobs:
         id: semantic
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   after-release:
     runs-on: ubuntu-latest

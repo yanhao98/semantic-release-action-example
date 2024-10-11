@@ -9,6 +9,9 @@ plugins:
   - - "@semantic-release/npm"
     # [provenance](https://docs.npmjs.com/generating-provenance-statements#using-third-party-package-publishing-tools)
     - npmPublish: true
+  # #############################
+  # https://github.com/semantic-release/github?tab=readme-ov-file#configuration
+  # #############################
   - "@semantic-release/github"
   - - "@semantic-release/git"
     - message: |-
