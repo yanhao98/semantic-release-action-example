@@ -1,3 +1,15 @@
+# 1.0.0 (2024-10-11)
+
+
+### Bug Fixes
+
+* 这是一个空提交. 2024年10月11日 星期五 10时58分49秒 CST on main ([d882bfe](https://github.com/yanhao98/semantic-release-action-example/commit/d882bfe7c5d0c859d0d7bfa909c47c81c79cd8a3))
+
+
+### Features
+
+* 这是一个空提交. 2024年10月11日 星期五 10时58分50秒 CST on main ([c7ff90b](https://github.com/yanhao98/semantic-release-action-example/commit/c7ff90bb5aa65abf439cecd76444eb9c2e07b13c))
+
 # [1.3.0](https://github.com/yanhao98/semantic-release-action-example/compare/v1.2.0...v1.3.0) (2024-10-11)
 
 
