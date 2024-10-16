@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/yanhao98/semantic-release-action-example/compare/v1.13.1...v1.14.0) (2024-10-16)
+
+
+### Features
+
+* **a(aa):** xxx ([67d4f92](https://github.com/yanhao98/semantic-release-action-example/commit/67d4f921ee07d91394e24b73b48007e6fc063f08))
+
 ## [1.13.1](https://github.com/yanhao98/semantic-release-action-example/compare/v1.13.0...v1.13.1) (2024-10-11)
 
 
