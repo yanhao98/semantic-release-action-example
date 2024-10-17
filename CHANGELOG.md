@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/yanhao98/semantic-release-action-example/compare/v1.14.0...v1.15.0) (2024-10-17)
+
+
+### Features
+
+* **a:** 冒号后面有空格 ([2ad55f1](https://github.com/yanhao98/semantic-release-action-example/commit/2ad55f1a8e46bb257cb205c338c65b3b3ffea860))
+
 # [1.14.0](https://github.com/yanhao98/semantic-release-action-example/compare/v1.13.1...v1.14.0) (2024-10-16)
 
 
