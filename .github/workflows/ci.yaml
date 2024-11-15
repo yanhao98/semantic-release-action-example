@@ -13,7 +13,7 @@ jobs:
       next_release_version: ${{ steps.semantic.outputs.next_release_version }}
     runs-on: ubuntu-latest
     permissions:           # Job-level permissions configuration starts here
-      id-token: write
+      id-token: write      # npm provenance requires this permission
       contents: write      # to be able to publish a GitHub release
       issues: write        # to be able to comment on released issues
       pull-requests: write # to be able to comment on released pull requests
